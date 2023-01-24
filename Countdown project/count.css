@@ -1,0 +1,52 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url('building.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    height:100vh;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.heading{
+ 
+    margin: auto;
+    width: 30vw;
+    font-size: 1.7vw;
+}
+
+#endDate {
+   margin: auto;
+   width: 33vw;
+   font-size: 1.5vw;
+}
+.box{
+    font-size: 1.4vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 23vw;
+    margin: auto;
+}
+
+input{
+    width: 6vw;
+    height: 2vw;
+    padding: 0.5vw;
+    margin: 2vw;
+    text-align: center;
+    border-radius: 6px;
+    font-size:2.5vw;
+    border:0.1vw solid black;
+}
+h1{
+    margin-bottom:18px;
+    margin-top: 0px;
+}
+
+
