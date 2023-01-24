@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook.clone</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            background-color: #f0f2f6;
+            height: 100vh;
+            width: 100vw;
+
+        }
+
+        .item {
+
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            display: flex;
+            /* width: 50%; */
+            max-width: 945px;
+            min-width: 867px;
+            position: relative;
+            top: 123px;
+            padding: 20px;
+
+        }
+
+        .mix {
+            float: left;
+
+        }
+
+
+
+        p {
+            margin: 0%;
+            font-size: 27px;
+            font-family: 'Heebo', sans-serif;
+            margin-left: 27px;
+            position: relative;
+            bottom: 34px;
+            padding-bottom: 69px;
+        }
+
+        .img {
+            width: 300px;
+            position: relative;
+            bottom: 23px;
+        }
+
+        .box {
+            float: right;
+            border: 1px;
+            padding: 14px;
+            margin-bottom: 22px;
+            width: 365px;
+            border-radius: 7px;
+            background-color: #FFFFFF;
+            /* margin-top: 130px; */
+            /* margin-right: 52px; */
+            box-shadow: 2px 2px 9px 3px rgba(237, 236, 236, 0.873);
+        }
+
+
+        .btn {
+
+            color: #FFFFFF;
+            background-color: #1877f2;
+            width: 362px;
+            padding: 12px 0px;
+            border-radius: 5px;
+            font-family: 'Heebo', sans-serif;
+            font-size: 20px;
+            border: 0px;
+        }
+
+        .btn:hover {
+            background-color: #1b6cd5;
+            cursor: pointer;
+
+        }
+
+        .btn1 {
+            padding: 12px;
+            color: #FFFFFF;
+            background-color: #42b72a;
+            text-align: center;
+            font-size: 19px;
+            border-radius: 5px;
+            position: relative;
+            left: 70px;
+            top: 8px;
+            margin: 14px;
+            border: 0px;
+
+        }
+
+        .btn1:hover {
+            background-color: #3a9e26;
+            cursor: pointer;
+        }
+
+        input {
+            padding: 15px 0px;
+            padding-left: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(216, 216, 216);
+            font-size: 16px;
+
+        }
+
+        .new {
+            color: #1877f2;
+            text-align: center;
+            font-family: 'Heebo', sans-serif;
+
+        }
+
+        .new:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        hr {
+            border: 1px solid #dadde1;
+
+        }
+
+        .container {
+            padding-left: 1.5px;
+            padding-top: 2px;
+        }
+
+        .page {
+            text-align: center;
+            font-size: 14px;
+            font-family: 'Heebo', sans-serif;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .newbox {
+            padding: 12px;
+            
+        }
+
+        /* @media only screen and (max-width:910px) {
+
+            .item {
+               
+                display:block;
+                height: 100vh;
+               
+            }
+            .img{
+                width: 310px;
+                margin: auto;
+                
+            }
+         
+          p{
+            width: 430px;
+            display: block;
+            text-align: center;
+          }
+          .box{
+            width: 365px;
+            margin: auto;
+            display: inline;
+          }
+          .mix{
+            display: inline-block;
+
+          }
+
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="item">
+
+        <div class="mix">
+            <div class="img">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">
+            </div>
+
+            <p> Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div>
+        <div class="newbox">
+            <div class="box">
+                <div class="container">
+                    <form action="backend.php">
+                        <div class="group">
+                            <input type="text" size="43" placeholder="Email address or phone number">
+                            <br><br>
+                            <input type="text" size="43" placeholder="Password">
+                        </div>
+                    </form>
+                    <br>
+                    <button class="btn">Log in</button>
+                    <h5 class="new">Forgotten password?</h5>
+                    <!-- <p class="cool"></p> -->
+                    <hr>
+
+                    <button class="btn1">Create New Account</button>
+                </div>
+
+            </div>
+
+            <div class="page">
+                <a href="#"><strong>Create a Page</strong></a> for a celebrity, brand or business.
+            </div>
+
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
